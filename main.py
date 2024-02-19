@@ -7,6 +7,19 @@ import asyncio
 import pathlib
 from db import update_collections
 
+def _onKeyRelease(event):
+    ctrl  = (event.state & 0x4) != 0
+    if event.keycode==88 and  ctrl and event.keysym.lower() != "x":
+        event.widget.event_generate("<<Cut>>")
+
+    if event.keycode==86 and  ctrl and event.keysym.lower() != "v":
+        event.widget.event_generate("<<Paste>>")
+
+    if event.keycode==67 and  ctrl and event.keysym.lower() != "c":
+        event.widget.event_generate("<<Copy>>")
+    
+    if event.keycode==65 and  ctrl and event.keysym.lower() != "a":
+        event.widget.event_generate("<<SelectAll>>")
 
 def create_configuration_file():
     configuration = {'osu_songs_path':''
@@ -75,7 +88,8 @@ if __name__ == '__main__':
     layouts = add_collection_layouts(layouts)
     layouts = add_progress_bar_layout(layouts)
     layouts = add_finish_text_layout(layouts)
-    window = sg.Window('Osu! Collection Downloader', layouts)
+    window = sg.Window('Osu! Collection Downloader', layouts, finalize=True)
+    window.TKroot.bind_all("<Key>", _onKeyRelease, "+")
     while True:
         event, values = window.read()
         if event == sg.WINDOW_CLOSED:
