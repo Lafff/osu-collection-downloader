@@ -10,7 +10,7 @@ This version is only suitable for osu!stable. Do not use this program for osu!la
 ![](https://cdn.discordapp.com/attachments/882785480175915038/1209271012924072056/image.png?ex=65e65064&is=65d3db64&hm=e4d94512a6697fcab1338cc992bd66881853af51ffa24f11cecbe31cf47717cb&)
 
 If you don't have Python or don't want to install it, you can use the exe file. It was generated from the source code using PyInstaller.
-Download link: https://disk.yandex.ru/d/KHtsIIR0NAYfwA
+Download link: https://disk.yandex.ru/d/bTgERaYZkQkxoQ
 
 To use the program using the source code, you need to:
 1) Install Python(Tested to work on version 3.12)
