@@ -34,7 +34,7 @@ def check_update_configuration(configuration, values_dict:dict):
 
 
 def add_osu_path_layouts(layouts):
-    layouts += [[sg.Text('Specify the path to the folder with Osu maps!')],
+    layouts += [[sg.Text('Specify the path to the folder with Osu! maps')],
               [sg.InputText(key='osu_songs_path', enable_events=True, default_text=osu_songs_path), sg.FolderBrowse(button_text='Open')], 
               ]
     return layouts

@@ -7,10 +7,10 @@ Example link: https://osucollector.com/collections/10517/nobully-streams%2Fstami
 
 This version is only suitable for osu!stable. Do not use this program for osu!lazer. Exception - you can download a collection in osu!stable and transfer new maps and collections to osu!lazer via the built-in import functionality. 
 
-![](https://cdn.discordapp.com/attachments/882785480175915038/1209018297476186132/image.png?ex=65e56508&is=65d2f008&hm=da59722b24e21229a169582de764b3a6bfd1a492b6fd0d1a52b1a08f9d695022&)
+![](https://cdn.discordapp.com/attachments/882785480175915038/1209271012924072056/image.png?ex=65e65064&is=65d3db64&hm=e4d94512a6697fcab1338cc992bd66881853af51ffa24f11cecbe31cf47717cb&)
 
 If you don't have Python or don't want to install it, you can use the exe file. It was generated from the source code using PyInstaller.
-Download link: https://drive.google.com/file/d/1TZxWUnVOuG5bgltCRk3IKnQsavSowDG5/view?usp=sharing
+Download link: https://disk.yandex.ru/d/KHtsIIR0NAYfwA
 
 To use the program using the source code, you need to:
 1) Install Python(Tested to work on version 3.12)
