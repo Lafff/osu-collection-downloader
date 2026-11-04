@@ -1,4 +1,4 @@
-This program allows you to download collections that are published on https://osucollector.com/ without having to log in and pay a subscription.
+This program allows you to download collections that are published on https://osucollector.com/
 
 Collection download functionality includes:
 1) Downloading a collection via a link to the collection. 
